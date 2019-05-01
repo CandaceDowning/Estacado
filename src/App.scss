@@ -1,0 +1,14 @@
+@import "./variables";
+@import "./Components/Landing/landing";
+@import "./Components/NavBar/navbar";
+@import "./Components/About/about";
+@import "./Components/Media/media";
+@import "./Components/Events/events";
+#app {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
