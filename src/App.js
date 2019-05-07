@@ -3,6 +3,7 @@ import "./App.scss";
 import Landing from "./Components/Landing/Landing";
 import NavBar from "./Components/NavBar/NavBar";
 import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 import Media from "./Components/Media/Media";
 import Events from "./Components/Events/Events";
 
@@ -12,8 +13,9 @@ function App() {
       <Landing />
       <NavBar />
       <About />
-      <Media />
-      <Events />
+      <Contact />
+      {/* <Media /> */}
+      {/* <Events /> */}
     </div>
   );
 }

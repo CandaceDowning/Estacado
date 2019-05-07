@@ -7,12 +7,18 @@ export default class NavBar extends Component {
         <nav className='nav'>
           <ul>
             <li>
-              <a href='#about-main'>About</a>
+              <a href='#landing-main'>Home</a>
             </li>
             <li>
+              <a href='#about-main'>Members</a>
+            </li>
+            <li>
+              <a href='#contact-main'>Social</a>
+            </li>
+            {/* <li>
               <a href='#media-main'>Music</a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href='#events-main'>Shows</a>
             </li>
             <li>
@@ -20,7 +26,7 @@ export default class NavBar extends Component {
             </li>
             <li>
               <a>Merch</a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

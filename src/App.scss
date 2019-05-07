@@ -4,7 +4,9 @@
 @import "./Components/About/about";
 @import "./Components/Media/media";
 @import "./Components/Events/events";
-#app {
+@import "./Components/Contact/contact";
+
+html {
   scroll-behavior: smooth;
 }
 
