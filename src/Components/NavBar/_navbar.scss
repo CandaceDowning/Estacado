@@ -17,9 +17,11 @@
 
     a {
       color: $tan;
+      text-decoration: none;
     }
     a:hover {
       color: $pink;
+      text-decoration: underline overline;
     }
   }
 }
