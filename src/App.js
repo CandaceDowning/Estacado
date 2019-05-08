@@ -14,7 +14,7 @@ function App() {
       <NavBar />
       <About />
       <Contact />
-      {/* <Media /> */}
+      <Media />
       {/* <Events /> */}
     </div>
   );

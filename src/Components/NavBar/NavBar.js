@@ -15,9 +15,9 @@ export default class NavBar extends Component {
             <li>
               <a href='#contact-main'>Social</a>
             </li>
-            {/* <li>
+            <li>
               <a href='#media-main'>Music</a>
-            </li> */}
+            </li>
             {/* <li>
               <a href='#events-main'>Shows</a>
             </li>

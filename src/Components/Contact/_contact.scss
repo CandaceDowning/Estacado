@@ -20,19 +20,20 @@
     display: flex;
     justify-content: space-between;
     width: 85vw;
+    margin-top: 4vh;
     div {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 25vw;
-      height: 25vw;
-      background-color: $pink;
+      width: 20vw;
+      height: 20vw;
+      background-color: $purple;
       border-radius: 20px;
       border: $black solid 4px;
     }
     img {
-      width: 20vw;
-      height: 40vh;
+      width: 15vw;
+      height: 15vw;
     }
   }
 }
