@@ -6,7 +6,7 @@ export default class Landing extends Component {
   render() {
     return (
       <div id='landing-main' role='img'>
-        <img
+        {/* <img
           className='text-logo'
           src={logo}
           alt='Hippy font logo for Estacado.'
@@ -15,7 +15,7 @@ export default class Landing extends Component {
           className='round-logo'
           src={album}
           alt='Round abstract logo from first album.'
-        />
+        /> */}
         <a
           rel='noreferrer'
           target='_blank'

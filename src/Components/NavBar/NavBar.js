@@ -10,14 +10,17 @@ export default class NavBar extends Component {
               <a href='#landing-main'>Home</a>
             </li>
             <li>
-              <a href='#about-main'>Members</a>
+              <a href='#about-main'>Bio</a>
             </li>
             <li>
-              <a href='#contact-main'>Social</a>
+              <a href='#contact-main'>Connect</a>
             </li>
             <li>
               <a href='#media-main'>Music</a>
             </li>
+            {/* <li>
+              <a href='#events-main'>Shows</a>
+            </li> */}
             {/* <li>
               <a href='#events-main'>Shows</a>
             </li>

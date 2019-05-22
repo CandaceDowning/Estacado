@@ -7,7 +7,8 @@
   height: 90vh;
   width: 100%;
   padding-top: 10vh;
-  background-color: $purple;
+  background-image: linear-gradient($green, $tan, $green);
+  background-color: rgba($green, 0.75);
   h1 {
     font-family: $title-font;
     font-size: 7vh;
@@ -15,13 +16,23 @@
   h2 {
     font-family: $text-font;
   }
-  .player {
-    border: 0;
-    width: 400px;
-    height: 241px;
-    border: $tan solid 3vw;
+
+  .player-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $green;
     border-radius: 20px;
+    width: 500px;
+    height: 341px;
+    border: $black solid 2px;
+    .player {
+      border: none;
+      width: 400px;
+      height: 241px;
+    }
   }
+
   a {
     text-decoration: none;
     color: black;

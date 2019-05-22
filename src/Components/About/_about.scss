@@ -1,43 +1,19 @@
 #about-main {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  background-color: $green;
+  justify-content: space-around;
+  background-image: linear-gradient($green, $tan, $green);
+  background-color: rgba($green, 0.75);
   height: 90vh;
   width: 100%;
   padding-top: 10vh;
 
-  h1 {
-    margin-top: 20px;
+  .bio {
     font-family: $title-font;
-    font-size: 9vh;
+    width: 50vw;
+    font-size: 25px;
   }
-
-  .members {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: 10px 0 0 0;
-
-    .mark,
-    .adam,
-    .ziggy {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-family: $text-font;
-      font-size: 4vh;
-      img {
-        border-radius: 20px;
-        width: 20vw;
-        border: $purple solid 4px;
-      }
-      p {
-        margin: 0;
-      }
-      h2 {
-        margin: 5px 0 0 0;
-      }
-    }
+  img {
+    height: 60vh;
   }
 }
