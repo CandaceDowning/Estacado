@@ -1,28 +1,27 @@
 import React, { Component } from "react";
+import DateList from "./DateList";
 
 export default class Events extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      tourDates: []
+    };
+  }
+
+  componentDidMount() {
+    fetch(
+      "https://rest.bandsintown.com/artists/Sweater%20Beats/events?app_id=Test"
+    )
+      .then(response => response.json())
+      .then(tourDates => this.setState({ tourDates: tourDates }));
+  }
+
   render() {
+    console.log(this.state);
     return (
       <div id='events-main'>
-        <script
-          charset='utf-8'
-          src='https://widget.bandsintown.com/main.min.js'
-        />
-        <a
-          class='bit-widget-initializer'
-          data-artist-name='estacado'
-          data-display-local-dates='false'
-          data-display-past-dates='false'
-          data-auto-style='false'
-          data-text-color='#000000'
-          data-link-color='#7bb3b9'
-          data-background-color='rgba(0,0,0,0)'
-          data-display-limit='5'
-          data-link-text-color='#fcdfb3'
-          data-display-lineup='false'
-          data-display-play-my-city='false'
-          data-separator-color='rgba(255, 255, 255, 0.5)'
-        />
+        <DateList tourDates={this.state.tourDates} />
       </div>
     );
   }

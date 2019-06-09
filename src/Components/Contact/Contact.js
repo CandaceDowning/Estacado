@@ -12,25 +12,25 @@ function Contact() {
         <a
           href='https://www.facebook.com/estacadotheband/'
           target='_blank'
-          rel='noopener'>
+          rel='noopener noreferrer'>
           <div>
-            <img src={facebook} />
+            <img src={facebook} alt={"Facebook link."} />
           </div>
         </a>
         <a
           href='https://estacado.bandcamp.com/releases'
           target='_blank'
-          rel='noopener'>
+          rel='noopener noreferrer'>
           <div>
-            <img src={bandcamp} />
+            <img src={bandcamp} alt={"Bandcamp link."} />
           </div>
         </a>
         <a
           href='https://www.instagram.com/estacadotheband/'
           target='_blank'
-          rel='noopener'>
+          rel='noopener noreferrer'>
           <div>
-            <img src={instagram} />
+            <img src={instagram} alt={"instagram link."} />
           </div>
         </a>
       </div>
