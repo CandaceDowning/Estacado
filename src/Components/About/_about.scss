@@ -16,7 +16,29 @@
       margin: 3vh 0 1.5vh 0;
     }
   }
+
   img {
     height: 60vh;
+    max-width: 30vw;
+  }
+}
+
+@media (max-width: 800px) {
+  #about-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .bio {
+      font-size: 3.5vw;
+      width: 75vw;
+      p {
+        margin: 0 0 0 0;
+      }
+    }
+    img {
+      height: 80vw;
+      max-width: 90vw;
+    }
   }
 }

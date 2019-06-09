@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   height: 90vh;
   width: 100%;
   padding-top: 10vh;
@@ -40,5 +39,31 @@
   }
   a:hover {
     text-decoration: underline overline;
+  }
+}
+
+@media (max-width: 800px) {
+  #media-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    h1 {
+      font-size: 8vw;
+      text-align: center;
+    }
+
+    .player-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      height: 50%;
+
+      .player {
+        width: 80%;
+        height: 80%;
+      }
+    }
   }
 }
