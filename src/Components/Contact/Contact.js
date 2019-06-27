@@ -2,6 +2,7 @@ import React from "react";
 import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/instagram-draw-logo.png";
 import bandcamp from "../../assets/musical-note.png";
+import gmail from "../../assets/post-envelope.png";
 
 function Contact() {
   return (
@@ -14,7 +15,7 @@ function Contact() {
           target='_blank'
           rel='noopener noreferrer'>
           <div>
-            <img src={facebook} alt={"Facebook link."} />
+            <img src={facebook} alt='Facebook link.' />
           </div>
         </a>
         <a
@@ -22,7 +23,7 @@ function Contact() {
           target='_blank'
           rel='noopener noreferrer'>
           <div>
-            <img src={bandcamp} alt={"Bandcamp link."} />
+            <img src={bandcamp} alt='Bandcamp link.' />
           </div>
         </a>
         <a
@@ -30,7 +31,15 @@ function Contact() {
           target='_blank'
           rel='noopener noreferrer'>
           <div>
-            <img src={instagram} alt={"instagram link."} />
+            <img src={instagram} alt='instagram link.' />
+          </div>
+        </a>
+        <a
+          href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=someone@gmail.com'
+          target='_blank'
+          rel='noopener noreferrer'>
+          <div>
+            <img src={gmail} alt='gmail link.' />
           </div>
         </a>
       </div>
