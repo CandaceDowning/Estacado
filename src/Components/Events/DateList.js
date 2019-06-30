@@ -6,13 +6,7 @@ const TourDateList = props => {
     return <DateListItem tourDate={tourDate} key={tourDate.id} />;
   });
 
-  return (
-    <div>
-      <table>
-        <tbody>{tourDateListItem}</tbody>
-      </table>
-    </div>
-  );
+  return <div className='dates'>{tourDateListItem}</div>;
 };
 
 export default TourDateList;
