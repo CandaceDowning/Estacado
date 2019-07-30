@@ -26,8 +26,7 @@ export default class Events extends Component {
     return (
       <div id='events-main'>
         <div className='events-background' />
-        <div className='test'>
-          <h1>Shows</h1>
+        <div className='shows'>
           <DateList tourDates={this.state.tourDates} />
         </div>
       </div>

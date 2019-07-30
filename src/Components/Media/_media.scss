@@ -36,11 +36,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: $purple;
+    background-image: radial-gradient(rgba($tan, 0.7), rgba($purple, 0.7));
     border-radius: 20px;
     width: 500px;
     height: 341px;
-    border: $green solid 2px;
     .player {
       border: none;
       width: 400px;

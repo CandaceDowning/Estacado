@@ -44,58 +44,28 @@ const TourDateItem = ({ tourDate }) => {
 
   return (
     <div className='date'>
-      <div className='date'>
-        <h2>
-          {DayofWeek} {Month} {DateNumber}
-        </h2>
+      <div className='shows-title'>
+        <h1>Shows</h1>
       </div>
-      <div className='location'>
-        <h4>{Venue}</h4>
-        <h3>
-          {City}, {Region}
-        </h3>
-      </div>
-      <div className={{ SoldOutClass }}>
-        <a href={TicketUrl} target='_blank' rel='noopener noreferrer'>
-          <h4>{TicketText}</h4>
-        </a>
+      <div className='day'>
+        <div>
+          <h2>
+            {DayofWeek} {Month} {DateNumber}
+          </h2>
+        </div>
+        <div className='location'>
+          <h4>{Venue}</h4>
+          <h3>
+            {City}, {Region}
+          </h3>
+        </div>
+        <div className='rsvp'>
+          <a href={TicketUrl} target='_blank' rel='noopener noreferrer'>
+            <h4>{TicketText}</h4>
+          </a>
+        </div>
       </div>
     </div>
-    // <tr>
-    //   <td >
-    //     <span className='bitw-custom-weekday'>{DayofWeek}</span>{" "}
-    //     <span className='bitw-custom-month'>{Month}</span>{" "}
-    //     <span className='bitw-custom-day'>{DateNumber}</span>
-    //   </td>
-    //   <td className='bitw-td bitw-td-venue-and-location'>
-    //     <p>
-    //       <span className='bitw-outer-venue'>
-    //         <span className='bitw-inner-venue'>{Venue}</span>
-    //       </span>
-    //     </p>
-    //     <p>
-    //       <span className='bitw-outer-location'>
-    //         <span className='bitw-inner-location'>
-    //           {City}, {Region}
-    //         </span>
-    //       </span>
-    //     </p>
-    //     <p>
-    //       <span className='bitw-outer-notes'>
-    //         <span className='bitw-inner-notes' />
-    //       </span>
-    //     </p>
-    //   </td>
-    //   <td className='bitw-td bitw-td-tickets'>
-    //     <span className='bitw-buy-tickets'>
-    //       <span className={{ SoldOutClass }}>
-    //         <a href={TicketUrl} target='_blank' rel='noopener noreferrer'>
-    //           {TicketText}
-    //         </a>
-    //       </span>
-    //     </span>
-    //   </td>
-    // </tr>
   );
 };
 

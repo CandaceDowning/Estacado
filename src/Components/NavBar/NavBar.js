@@ -6,15 +6,16 @@ export default class NavBar extends Component {
       <div id='nav-main'>
         <nav className='nav'>
           <ul>
-            <li>
+            {/* <li>
               <a href='#landing-main'>Home</a>
-            </li>
+            </li> */}
             <li>
               <a href='#about-main'>Bio</a>
             </li>
             <li>
               <a href='#contact-main'>Connect</a>
             </li>
+            <li className='nav-title'>Estacado The Band</li>
             <li>
               <a href='#media-main'>Music</a>
             </li>
