@@ -28,13 +28,6 @@ const TourDateItem = ({ tourDate }) => {
   const DayofWeek = Days[DateInfo.getDay()];
   const Month = MonthNames[DateInfo.getMonth()];
   const DateNumber = DateInfo.getDate();
-  const OutOfStock =
-    tourDate.offers.length > 0
-      ? tourDate.offers[0].status === "sold out"
-      : false;
-  const SoldOutClass = OutOfStock
-    ? "bitw-custom-sold-out bitw-custom-buy-tickets"
-    : "bitw-custom-buy-tickets";
   const TicketText =
     tourDate.offers.length === 0
       ? "RSVP"
