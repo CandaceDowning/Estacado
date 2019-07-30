@@ -7,6 +7,7 @@ import gmail from "../../assets/post-envelope.png";
 function Contact() {
   return (
     <div id='contact-main'>
+      <div className='contact-background' />
       <h1>Look, Listen, Like</h1>
       <h3>#EstacadoTheBand</h3>
       <div className='social-icons'>

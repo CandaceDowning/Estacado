@@ -2,21 +2,54 @@
   height: 90vh;
   width: 100%;
   padding-top: 10vh;
-  background-image: radial-gradient($tan 1%, $green 70%);
+  background-image: url(./assets/paper.jpg);
   text-align: center;
+  padding-top: 10vh;
+
+  .events-background {
+    position: absolute;
+    top: 401vh;
+    left: 0;
+    z-index: 2;
+    background-image: radial-gradient(
+      rgba($tan, 0.7) 1%,
+      rgba($green, 0.7) 70%
+    );
+    height: 100vh;
+    width: 100vw;
+  }
+  .test {
+    z-index: 3;
+    margin: 10vh auto auto auto;
+    border: 3px solid $green;
+    border-radius: 20px;
+    width: 50vw;
+    h1 {
+      border-bottom: 10px solid $green;
+      padding-bottom: 20px;
+    }
+  }
 }
+
 .date {
+  z-index: 3;
   font-family: $title-font;
   display: flex;
   align-items: center;
   justify-content: center;
+  h2 {
+    z-index: 3;
+  }
   .location {
     margin: 0 50px;
+    z-index: 3;
     h4 {
       margin: 0;
+      z-index: 3;
     }
     h3 {
       margin: 0;
+      z-index: 3;
     }
   }
 }

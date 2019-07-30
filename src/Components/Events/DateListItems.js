@@ -44,7 +44,7 @@ const TourDateItem = ({ tourDate }) => {
 
   return (
     <div className='date'>
-      <div>
+      <div className='date'>
         <h2>
           {DayofWeek} {Month} {DateNumber}
         </h2>

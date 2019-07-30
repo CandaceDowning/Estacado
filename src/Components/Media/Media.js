@@ -4,6 +4,7 @@ export default class Media extends Component {
   render() {
     return (
       <div id='media-main'>
+        <div className='media-background' />
         <h1>Listen to the new self titled album</h1>
         <div className='player-container'>
           <iframe

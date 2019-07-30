@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import group from "../../assets/groupPhoto.jpeg";
+import paper from "../../assets/paper.jpg";
 
 export default class About extends Component {
   render() {
     return (
       <div id='about-main'>
+        <div className='about-background' />
         <img
           src={group}
           alt={

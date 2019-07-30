@@ -15,7 +15,7 @@ function App() {
       <About />
       <Contact />
       <Media />
-      {/* <Events /> */}
+      <Events />
     </div>
   );
 }
